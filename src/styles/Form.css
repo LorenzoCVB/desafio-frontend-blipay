@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 40px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.underline {
+  height: 3px;
+  width: 50px;
+  background-color: #7a42f4;
+  margin: 8px auto 20px;
+  border-radius: 10px;
+}
+
+/* Inputs */
+.inputs {
+  margin-top: 20px;
+}
+
+.inputs .input {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  transition: border 0.3s ease;
+}
+
+.inputs .input img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  opacity: 0.6;
+}
+
+.inputs .input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.inputs .input:hover,
+.inputs .input:focus-within {
+  border-color: #7a42f4;
+}
+
+.error-text {
+  font-size: 14px;
+  color: red;
+  align-items: center;
+}
+
+/* Submit Buttons */
+.submit-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.submit-container .submit {
+  flex: 1;
+  text-align: center;
+  padding: 12px;
+  font-weight: 500;
+  background-color: #7a42f4;
+  color: #fff;
+  margin: 0 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  /* Soft shadow for depth */
+}
+
+.submit-container .submit:hover {
+  background-color: #3900b5;
+  transform: translateY(-1px);
+}
+
+.inputs .input:focus-within {
+  border-color: #7a42f4;
+}
+
+.submit-container .submit:active {
+  transform: translateY(1px);
+}

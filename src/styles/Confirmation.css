@@ -1,0 +1,116 @@
+/* Reset básico para garantir que o layout funcione sem interferências */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centralização da página e ajuste de cores */
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea; /* Cor de fundo leve */
+  font-family: Arial, sans-serif;
+}
+
+/* Cartão de confirmação */
+.confirmation-card {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+}
+
+/* Ícone de confirmação */
+.check-icon {
+  width: 80px;
+  margin-bottom: 1.5rem;
+}
+
+/* Mensagem de confirmação */
+.confirmation-message {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+/* Texto de confirmação */
+.confirmation-text {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 700px;
+  width: 100%;
+  margin: 40px auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Confirmação e feedback */
+.confirmation-message {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Botão de confirmação */
+.confirm-button {
+  width: auto;
+  padding: 12px 32px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #7a42f4;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+  margin-top: 24px;
+}
+
+.confirm-button:hover {
+  background-color: #3900b5;
+  transform: translateY(-2px);
+}
+
+.confirm-button:active {
+  transform: scale(0.98);
+}
+
+/* Estilização para o contêiner de mensagem de confirmação */
+.confirmation-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilo para o ícone de confirmação */
+.check-icon {
+  width: 160px;
+  margin-bottom: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

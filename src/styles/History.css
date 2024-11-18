@@ -1,0 +1,111 @@
+.history-container {
+  padding: 40px;
+  background-color: #f3f3f9;
+}
+
+.history-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #5e35b1;
+  border-bottom: 2px solid #5e35b1;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.history-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.history-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  width: 280px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.history-card:hover {
+  transform: scale(1.05);
+  border-color: #5e35b1;
+}
+
+.no-history-card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+}
+
+.account-type {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #5e35b1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.data-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.data-item:hover {
+  background-color: #e6e0f8;
+}
+
+.data-item img {
+  width: 24px;
+  height: 24px;
+  filter: hue-rotate(270deg); /* Aplica uma tonalidade roxa aos ícones */
+}
+
+.data-item span {
+  font-size: 15px;
+  color: #333;
+}
+
+.confirm-button {
+  display: block;
+  margin: 30px auto 0; /* Centraliza horizontalmente e adiciona um espaçamento superior */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5e35b1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(94, 53, 177, 0.3); /* Sombra roxa suave */
+}
+
+.confirm-button:hover {
+  background-color: #45248a; /* Cor mais escura ao passar o mouse */
+  transform: translateY(-2px); /* Leve movimento para cima ao passar o mouse */
+}
+
+.confirm-button:active {
+  transform: translateY(0); /* Retorno ao original ao clicar */
+}
