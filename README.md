@@ -28,9 +28,8 @@ cd desafio-frontend-blipay
 ```
 npm install
 ```
-4. Inicie o projeto:
+3. Inicie o projeto:
 ```
 npm run dev
 ```
-5.
-O projeto estará acessível em http://localhost:5137.
+4. O projeto estará acessível em http://localhost:5137.
